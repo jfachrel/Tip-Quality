@@ -1,0 +1,7 @@
+# Ignore unusedfolder
+result/
+cropped/
+.ipynb_checkpoints/
+
+# Ignore txt
+vision test.txt
