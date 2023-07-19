@@ -5,7 +5,7 @@ Clone this repo:
 git clone https://github.com/jfachrel/Tip-Quality.git
 ```
 
-install requirements:
+Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
