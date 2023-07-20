@@ -1,6 +1,6 @@
 # Tip Quality
 
-<img, src=https://github.com/jfachrel/Tip-Quality/blob/main/Tip.png>
+<img src=https://github.com/jfachrel/Tip-Quality/blob/main/Tip.png>
 
 Clone this repo:
 ```bash
