@@ -25,3 +25,29 @@ The similarity scores are then compared against pre-defined threshold values for
 
 6. Output and Result Storage:
 The script creates output directories named "GO" and "NG" within the specified output directory. For each input image, it copies the image to the appropriate output directory based on its quality classification (GO or NG). If the image is classified as "None," it is not copied to any output directory.
+
+## Usage
+
+The script can be run from the command line with the following optional arguments:
+
+--path: Path to the folder containing input images for batch processing.
+--img_path: Path to a single input image for processing.
+--outdir: Output directory to save results (default: "result").
+The script will create output directories for "GO" and "NG" classifications within the main output directory.
+
+For each input image, the script will calculate its quality (GO, NG, or None) and copy the image to the respective output directory based on the classification.
+
+## Example Usage:
+
+Process images in a folder:
+```bash
+python main.py --path input_folder --outdir output_folder
+```
+
+Process a single image:
+```bash
+python main.py --img_path input_image.jpg --outdir output_folder
+```
+
+**note** : Before running the script, ensure that the necessary libraries in the `requirements.txt` are installed in the Python environment.
+
