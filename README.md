@@ -1,5 +1,7 @@
 # Tip Quality
 
+<img, src=https://github.com/jfachrel/Tip-Quality/blob/main/Tip.png>
+
 Clone this repo:
 ```bash
 git clone https://github.com/jfachrel/Tip-Quality.git
