@@ -51,3 +51,14 @@ python main.py --img_path input_image.jpg --outdir output_folder
 
 **note** : Before running the script, ensure that the necessary libraries in the `requirements.txt` are installed in the Python environment.
 
+## Solutions to Improve the Performance
+
+1. Use More Data:
+Acquiring more labeled data, especially diverse and representative samples of "GO" and "NG" Tip, can significantly improve the model's ability to generalize. Larger datasets allow the model to learn more robust features and patterns, leading to better detection results.
+
+2. Domain Knowledge for Labeling:
+In scenarios where labeled data is scarce, domain experts can help label the data more accurately. Their expertise can ensure that the dataset contains correct and meaningful labels, minimizing labeling errors and improving the model's performance.
+
+3. Segmentation Method for Crack Percentage:
+Employing image segmentation techniques to calculate the percentage of the image covered by cracks can provide valuable additional information about the severity of cracks. By incorporating this information into the classification process, the model can make more nuanced decisions, such as categorizing cracks based on their size or severity.
+
