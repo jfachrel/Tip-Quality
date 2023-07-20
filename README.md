@@ -20,3 +20,4 @@ Process a single image:
 python main.py --img_path input_image.jpg --outdir output_folder
 ```
 
+[Documentation](https://github.com/jfachrel/Tip-Quality/blob/main/DOCUMENTATION.MD)
